@@ -9,18 +9,20 @@
             git config user.email "mygeekboxpro@proton.me"
             git config user.name "mygeekboxpro"
          ```
-         ```bash
-            git commit -m "first commit" 
-         ```   
-         ```bash
-            git branch -M main
-            git remote add origin https://github.com/mygeekboxpro/test_repo.git
-            git push -u origin main      
-         ```         
-    - **Create base branch**
-         ```bash
-            git checkout -b main
-         ```  
+    - **Initial Commit**
+       ```bash
+          git commit -m "first commit" 
+       ```
+    - **Create main branch**
+      ```bash
+         git branch -M main
+         git remote add origin https://github.com/mygeekboxpro/test_repo.git
+         git push -u origin main      
+      ```
+    - **Checkout main branch:**
+      ```bash
+        git checkout -b main
+      ```
     - **Create .gitignore file**
     - **Create a sample requirements.txt file**
       ```
